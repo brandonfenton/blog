@@ -1,0 +1,27 @@
+---
+title: "First Post"
+author: "Brandon Fenton"
+date: '2018-08-18'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+slug: first-post
+tags: []
+categories: []
+---
+
+```{r message=F, echo=F}
+library(dplyr)
+library(ggplot2)
+library(plotly)
+```
+
+$$f(x) = \frac{1}{\Gamma(k)\theta^{k}} x^{k-1} e^{-{\frac{x}{\theta}}}; x \in(0,\infty)$$
+
+let's see now
+
+```{r vcsupp}
+p <- ggplot(ToothGrowth, aes(y = len, x = interaction(dose,supp), fill=supp)) + geom_boxplot() + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+ggplotly(p)
+```

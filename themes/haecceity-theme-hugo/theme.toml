@@ -1,0 +1,17 @@
+name = "haecceity-theme-hugo"
+license = "GPLv2"
+licenselink = "https://github.com/bake/solar-theme-hugo/blob/master/LICENSE.md"
+description = "A blogdown-friendly modified version of solar-theme-hugo"
+homepage = "https://github.com/brandonfenton/haecceity-theme-hugo"
+tags = ["blog", "light", "dark", "responsive", "solarized", "highlight.js"]
+features = []
+min_version = "0.25.1"
+
+[author]
+	name = "brandonfenton"
+	homepage = "https://192k.pw/"
+
+[original]
+	author = "bake"
+	name = "solar-theme-hugo"
+	repo = "https://github.com/bake/solar-theme-hugo"

@@ -1,0 +1,24 @@
+title = "Haecceity"
+theme = "haecceity-theme-hugo"
+paginate = 5
+pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
+copyright = ""
+baseurl = ""
+
+[params]
+  scheme = "dark" # light, dark or gray
+  description = "An ongoing journey"
+
+[menu]
+  [[menu.main]]
+    name = "Feed"
+    url = "/index.xml"
+  [[menu.main]]
+    name = "Repository"
+    url = "https://github.com/brandonfenton"
+  [[menu.other]]
+    name = "Hugo"
+    url = "https://themes.gohugo.io/solar-theme-hugo/"
+  [[menu.other]]
+    name = "Demo"
+    url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
